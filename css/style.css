@@ -1,0 +1,335 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	font-size: 62.5%  /* 1em = 10px */
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+	margin-top: 50px;
+}
+
+h1 {
+	font-size: 3.6em;
+}
+
+p {
+	font-size: 1.6em;
+}
+
+h5 {
+	margin-top: 10px;
+	font-size: 1.3em;
+}
+
+footer p {
+	border-top: 1px solid #bebebe;
+	color:#bebebe;
+	margin: 0 5% 3% 5%;
+	padding-top: 3%;
+	font-size: 1.6em;
+	font-weight: lighter;
+}
+
+a:hover, a:focus {
+    color: none;
+    text-decoration: none;
+}
+
+.home_bg {
+	background: url("../img/firstbg.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.portfolio_bg {
+	background: 
+	linear-gradient( 
+	rgba(0,0,0,0.5), 
+	rgba(0,0,0,0.5)
+	),
+	url("../img/secondbg.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.white_bg {
+	background-color: #ffffff;
+}
+
+.navbar {
+	text-align: center;
+	font-size: 1.4em; 
+	border-bottom: 0px;
+	padding-bottom: 0px;
+	color: #f1f1f1;
+}
+
+.navbar ul {
+	margin-top: 0px;
+}
+
+.navbar li {
+	margin-right: 8px;
+}
+
+.nav li a:hover, a:focus{
+	background: none;
+}
+
+.navbar-nav {
+  float: none;
+  vertical-align: top;
+}
+
+.nexalight {
+	font-family: 'nexa_light';
+}
+
+.nexabold {
+	font-family: 'nexa_bold';
+	font-weight: bold;
+}
+
+.logo {
+	width: 320px;
+	margin-top: 6%;
+}
+
+.brand {
+	margin-bottom: 4%;
+}
+
+.img_port {
+	margin-top: 5%;
+}
+
+.scroll {
+	width: 25px;
+	margin-bottom: 4%;
+}
+
+.social {
+	text-align: center;
+	float: none;
+}
+
+.center-block li {
+	display: inline-block;
+	margin-right: 1%;
+}
+
+.social img {
+	width: 40px;
+}
+
+ul.center-block {
+	margin: 5px auto 200px auto;
+	text-align: center;
+}
+
+.jason {
+	max-width: 485px;
+}
+
+.sign {
+	font-family: 'felt_tipregular';
+	font-size: 2.0em;
+	font-weight: 700;
+	margin-top: 9%;
+}
+
+img .img_port.img-responsive {
+	min-width: 160px;
+}
+
+.img-responsive.scroll {
+	min-width: 0px;
+}
+
+#about_me {
+	font-family:'open_sansregular', Arial, Helvetica;
+}
+
+#about_me h1 {
+	font-family: 'nexa_light';
+	font-weight: 100;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+#about_me h5 {
+	color: #bebebe;
+	margin: 5% 0 5% 0;
+}
+
+#about_me p:first-of-type {
+	margin-bottom: 2em;
+}
+
+#portfolio, #home {
+	color: #f1f1f1;
+}
+
+#portfolio h5 {
+	margin-top: 5%;
+}
+
+#portfolio h1 {
+	margin: 5% 0 0 0;
+}
+
+#contact {
+	margin-top: 110px;
+}
+
+#contact p {
+	line-height: 150%;
+	font-size: 2.0em;
+}
+
+#contact p.address_size {
+	font-size: 3.6em;
+}
+
+#contact p.number_size {
+	font-size: 3.0em;
+}
+
+@font-face {
+    font-family: 'nexa_light';
+    src: url('../fonts/nexa_light-webfont.woff2') format('woff2'),
+         url('../fonts/nexa_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nexa_bold';
+    src: url('../fonts/nexa_bold-webfont.woff2') format('woff2'),
+         url('../fonts/nexa_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'felt_tipregular';
+    src: url('../fonts/felt_tip_roman-webfont.woff2') format('woff2'),
+         url('../fonts/felt_tip_roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media (min-width: 768px) {
+	.navbar-collapse.collapse {
+		display: inline-block !important;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	#home h1 {
+		font-size: 2.3em;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	
+	#portfolio h1 {
+		margin-bottom: 8%;
+	}
+
+	.img-responsive.scroll {
+		min-width: 0px;
+	}
+
+}
+
+@media only screen and (max-device-width: 320px) {
+	footer p {
+		font-size: 1.4em;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+	.logo {
+		width: 220px;
+	}
+
+	h1,h2 {
+		font-size: 2.6em;
+	}
+
+	#contact p.address_size {
+		font-size: 2.6em;
+	}
+
+	#contact p.number_size {
+		font-size: 2.0em;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+	.img_port {
+		margin-top: 5%;
+		width: 190px;
+	}
+
+	#portfolio img {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+	.logo {
+		width: 220px;
+	}
+
+	h1,h2 {
+		font-size: 2.6em;
+	}
+
+	#contact p.address_size {
+		font-size: 2.6em;
+	}
+
+	#contact p.number_size {
+		font-size: 2.0em;
+	}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+	.img_port {
+		margin-top: 5%;
+		width: 190px;
+	}
+
+	#portfolio img {
+	    display: block;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+}
+
